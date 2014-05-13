@@ -1,0 +1,49 @@
+/* 24 Clock
+   By Oliver Pope
+*/
+
+@font-face {
+    font-family: 'ds-digitalitalic';
+    src: url('ds-digii-webfont.eot');
+    src: url('ds-digii-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	font-family: "ds-digitalitalic", sans-serif;
+	font-style: normal;
+	text-align: center;
+	background-color: #040404 ;
+	color: #FBF8E5;
+}
+
+body {
+	padding-top: 18%;
+}
+
+#clock {
+	text-shadow: 1px  0 20px #F79954,
+	             2px  0 21px #F79954,
+	             3px  0 22px #F79954,
+	             4px  0 26px #C44C41,
+	             5px  0 27px #C44C41,
+	             6px  0 28px #C44C41,
+	             7px  0 29px #C44C41,
+	             8px  0 30px #BB4C3A,
+	             9px  0 31px #BB4C3A,
+	             10px 0 36px #f94d3a,
+	             11px 0 37px #f94d3a,
+	             12px 0 38px #641013,
+	             13px 0 40px #B44C44,
+	             14px 0 41px #B44C44,
+	             15px 0 42px #B44C44,
+	             18px 0 45px #583C44;
+	overflow: hidden;
+	font-size: 175px;
+}
+
+p {
+	font-size: 14px;
+}

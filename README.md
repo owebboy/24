@@ -1,4 +1,4 @@
-24
-==
+# 24 Clock
+## The clock from 24
 
-24 Clock
+# REVAMPED FOR 24: LIVE ANOTHER DAY!
