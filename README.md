@@ -1,4 +1,9 @@
-# 24 Clock
-## The clock from 24
+# 24: The Clock
+_The clock from 24_
 
-# REVAMPED FOR 24: LIVE ANOTHER DAY!
+__REVAMPED FOR 24: LIVE ANOTHER DAY!__
+
+## Features
+- Super Simple
+- Jack Bauer Cool
+- Swag scripts
