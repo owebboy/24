@@ -47,3 +47,7 @@ body {
 #cheet {
     font-size: 3em;
 }
+
+#ticking {
+    display: none;
+}
