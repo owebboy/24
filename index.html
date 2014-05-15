@@ -13,6 +13,20 @@
 		<body onload="setInterval('updateClock()', 200);">
 			<span id="clock"></span>
 			
-			<script src="script.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+			<script src="clock.min.js"></script>
+    		<script src="cheet.min.js"></script>
+    		<script>
+    		cheet('j a c k', {
+          
+                fail: function () {
+                    document.getElementById("cheet").innerHTML = ('protocol error!');
+                    window.location = "https://twitter.com/24fox";
+                },
+                done: function () {
+                    document.getElementById("cheet").innerHTML = ('JACK IS AWESOME');
+                }});
+    		</script>
+			
 		</body>
 	</html>
