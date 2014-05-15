@@ -3,7 +3,7 @@
 */
 
 @font-face {
-    font-family: 'ds-digitalitalic';
+    font-family: '24';
     src: url('ds-digii-webfont.eot');
     src: url('ds-digii-webfont.ttf') format('truetype');
     font-weight: normal;
@@ -11,8 +11,24 @@
 
 }
 
+button {
+    color: #190000;
+    background: #040404;
+    border: 0px solid #040404;
+    font-size: 3em;
+    display: block;
+    position: fixed;
+    bottom: 1em;
+    left: .5em;
+    transition: 1s all;
+}
+
+button:hover {
+    color: #FBF8E5;
+}
+
 html {
-	font-family: "ds-digitalitalic", sans-serif;
+	font-family: "24", sans-serif;
 	font-style: normal;
 	text-align: center;
 	background-color: #040404 ;

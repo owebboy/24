@@ -8,6 +8,7 @@
 			<title>24</title>
 			
 			<link href="styles.css" rel="stylesheet">
+			<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 			
 		</head>
 		<body onload="setInterval('updateClock()', 200);">
@@ -15,6 +16,8 @@
 			<span id="clock"></span>
 			
 			<p id="cheet"></p>
+			
+			<button onclick="document.getElementById('ticking').muted = true;"><i class="fa fa-volume-off"></i></button>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 			<script src="clock.min.js"></script>
     		<script src="cheet.min.js"></script>
@@ -26,7 +29,7 @@
                     window.location = "https://twitter.com/24fox";
                 },
                 done: function () {
-                    document.getElementById("clock").innerHTML = ('Jack Bauer Rocks!');
+                    document.getElementById("cheet").innerHTML = ('Jack Bauer Rocks!');
                 }});
     		</script>
 		</body>
